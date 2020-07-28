@@ -6,6 +6,16 @@ This is a working example of a multi-container flask application with postgres, 
 ```bash
 $ docker-compose up -d
 ```
+sudo docker-compose up
+sudo docker ps
+sudo docker exec -it 3aa106127b19 bash
+mongo --version
+mongo
+show dbs
+use testdb
+show collections
+db.users.find()
+db.posts.find()
 
 ```
 
